@@ -5,9 +5,7 @@ Sites estáticos com Amazon S3 e Cloudfront
 neste projeto eu criei um site estatico utilizando o repositorio no amazon S3 com o Amazon Cloudfront para entrega de conteudo (CDN).
 
 Serviços utilizados
-Cloudfront
-
-S3
+Cloudfront e S3
 
 Configurações iniciais
 Criando o bucket no S3
