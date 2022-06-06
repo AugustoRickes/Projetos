@@ -1,5 +1,10 @@
-const express = require('express');
-const routes = require('./router');
+import 'dotenv/config';
+import express from 'express';
+import path from 'path';
+import cors from 'cors';
+import routes from './routes';
+
+import './database';
 
 class App {
     constructor() {
@@ -7,13 +12,16 @@ class App {
         this.middlewares();
         this.routes();
     }
+
     middlewares() {
-        this.server.use(express.json())
+        this.server.use(cors());
+        this.server.use(express.json());
+        this.server.use(express.json());
+        this.server.use('/files', express.static(path.resolve(__dirname, '..', 'tmp', 'uploads')))
     }
 
     routes() {
-        this.server.use(routes)
+        this.server.use(routes);
     }
 }
-
-module.exports = new App().server;
+export default new App().server;
