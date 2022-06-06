@@ -1,9 +1,10 @@
 module.exports = {
+   //aqui voce coloca os dados do seu servidor
     dialect: 'postgres',
-    host: 'queenie.db.elephantsql.com',
-    username: 'yobfmwkr',
-    password: 'SJeBNzQBBe3Sy9Ranayvgcl0EIndl62s',
-    database: 'yobfmwkr',
+    host: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    username: 'xxxxxxxxxxxxxxxxxxxxxxxx',
+    password: 'xxxxxxxxxxxxxxxxxxxxxxxxx',
+    database: 'xxxxxxxxxxxxxxxxxxxxxxxxx',
     logging: false,
     define: {
         timestamps: true,
