@@ -1,5 +1,5 @@
 module.exports = {
-   //aqui voce coloca os dados do seu servidor
+   //aqui voce coloca os dados do ElephantSQL tiny turtle free
     dialect: 'postgres',
     host: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     username: 'xxxxxxxxxxxxxxxxxxxxxxxx',
