@@ -3,7 +3,7 @@ module.exports = {
     dialect: 'postgres',
     host: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     username: 'xxxxxxxxxxxxxxxxxxxxxxxx',
-    password: 'xxxxxxxxxxxxxxxxxxxxxxxxx',
+    password: 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
     database: 'xxxxxxxxxxxxxxxxxxxxxxxxx',
     logging: false,
     define: {
